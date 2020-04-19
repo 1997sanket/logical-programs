@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	int n;
+	cout<<"enter a no "<<endl;
+	cin>>n;
+	cout<<"Next 5 nos are"<<endl;
+
+	for(int i = n+1 ; i<=n+5; i++)
+	{
+		cout<<i<<endl;
+	}
+
+
+}
+
